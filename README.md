@@ -34,3 +34,16 @@ npm start
 
 - Insert diferent sounds already avaliable in the project folder
 - Insert diferent icons already avaliable in the project folder
+- Correct the tray icon on linux
+
+## Known Issues
+
+- With **Ubuntu 18.04** the following error may occur:
+```bash
+Gtk-Message: 22:29:00.615: Failed to load module "canberra-gtk-module"
+```
+
+- Correct this installing the canberra-gtk-module:
+```bash
+apt install libcanberra-gtk-module
+```
