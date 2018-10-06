@@ -8,7 +8,7 @@ https://medium.com/developers-writing/building-a-desktop-application-with-electr
 
 ## Running the application
 
-This project was built using **NodeJs 8.12.0** and **Electron 1.8.2**
+This project was built using **NodeJs 8.12.0** and **Electron 1.8.8**
 
 - Clone the repository:
 ```bash
