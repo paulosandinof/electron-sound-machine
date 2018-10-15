@@ -36,7 +36,7 @@ npm start
 - Insert diferent icons already avaliable in the project folder
 - Correct the tray icon on linux
 
-## Known Issues
+## Known issues
 
 - With **Ubuntu 18.04** the following error may occur:
 ```bash

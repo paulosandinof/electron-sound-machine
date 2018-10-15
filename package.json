@@ -1,6 +1,7 @@
 {
   "name": "sound_machine",
   "version": "0.1.0",
+  "description": "A simple example of a sound machine made with Electron.",
   "main": "./main.js",
   "scripts": {
     "start": "electron ."
