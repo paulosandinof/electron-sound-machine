@@ -17,7 +17,7 @@ git clone https://github.com/paulosandinof/electron_sound_machine.git
 
 - A directory with the name **electron_sound_machine** will be created, access it:
 ```bash
-cd electron_sound_machine
+cd electron-sound-machine
 ```
 
 - Inside this folder, install the project dependencies:
