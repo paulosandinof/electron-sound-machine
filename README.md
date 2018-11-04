@@ -15,7 +15,7 @@ This project was built using **NodeJs 8.12.0** and **Electron 1.8.8**
 git clone https://github.com/paulosandinof/electron_sound_machine.git
 ```
 
-- A directory with the name **electron_sound_machine** will be created, access it:
+- A directory with the name **electron-sound-machine** will be created, access it:
 ```bash
 cd electron-sound-machine
 ```
