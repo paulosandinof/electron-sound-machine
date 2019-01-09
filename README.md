@@ -38,4 +38,3 @@ npm start
 
 - Insert diferent sounds already avaliable in the project folder
 - Insert diferent icons already avaliable in the project folder
-- Correct the tray icon on linux

@@ -1,12 +1,11 @@
 {
   "name": "electron-sound-machine",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "index.js",
   "repository": "https://github.com/paulosandinof/electron-sound-machine.git",
-  "author": "Paulo Sandino <paulosandino@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "electron ."
+    "start": "electron src"
   },
   "dependencies": {
     "electron": "^4.0.1",
