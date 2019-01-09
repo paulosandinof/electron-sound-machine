@@ -27,9 +27,9 @@ function setGlobalShortcuts() {
 
 app.on('ready', () => {
   mainWindow = new BrowserWindow({
-    frame: true,
+    frame: false,
     height: 700,
-    resizable: true,
+    resizable: false,
     width: 368,
   });
 
@@ -52,9 +52,9 @@ ipcMain.on('open-settings-window', () => {
   }
 
   settingsWindow = new BrowserWindow({
-    frame: true,
+    frame: false,
     height: 200,
-    resizable: true,
+    resizable: false,
     width: 200,
   });
 

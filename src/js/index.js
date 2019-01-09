@@ -13,7 +13,7 @@ function prepareButton(button, soundName) {
 
   newButton.addEventListener('click', () => {
     audio.currentTime = 0;
-    audio.play();
+    audio.play().catch(() => {});
   });
 }
 
