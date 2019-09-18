@@ -25,11 +25,12 @@ const modifierCheckboxes = document.querySelectorAll('.global-shortcut');
 
 for (let i = 0; i < modifierCheckboxes.length; i += 1) {
   const shortcutKeys = configuration.readSettings('shortcutKeys');
-  const modifierKey = modifierCheckboxes[i].attributes['data-modifier-key'].value;
+  const modifierKey =
+    modifierCheckboxes[i].attributes['data-modifier-key'].value;
 
   modifierCheckboxes[i].checked = shortcutKeys.indexOf(modifierKey) !== -1;
 
-  modifierCheckboxes[i].addEventListener('click', (event) => {
+  modifierCheckboxes[i].addEventListener('click', event => {
     bindModifierCheckboxes(event);
   });
 }

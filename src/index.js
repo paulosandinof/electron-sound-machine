@@ -1,8 +1,6 @@
 const electron = require('electron');
 
-const {
-  app, BrowserWindow, ipcMain, globalShortcut,
-} = electron;
+const { app, BrowserWindow, ipcMain, globalShortcut } = electron;
 
 const configuration = require('./config');
 
@@ -14,7 +12,8 @@ function setGlobalShortcuts() {
 
   const shortcutKeysSetting = configuration.readSettings('shortcutKeys');
 
-  const shortcutPrefix = shortcutKeysSetting.length === 0 ? '' : `${shortcutKeysSetting.join('+')}+`;
+  const shortcutPrefix =
+    shortcutKeysSetting.length === 0 ? '' : `${shortcutKeysSetting.join('+')}+`;
 
   globalShortcut.register(`${shortcutPrefix}1`, () => {
     mainWindow.webContents.send('global-shortcut', 0);
