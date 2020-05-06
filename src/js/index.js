@@ -8,11 +8,11 @@ const { Tray, Menu } = remote;
 function prepareButton(button, soundName) {
   const newButton = button;
   newButton.querySelector(
-    'span'
+    'span',
   ).style.backgroundImage = `url("../img/icons/${soundName}.png")`;
 
   const audio = new Audio(
-    path.resolve(__dirname, '..', 'wav', `${soundName}.wav`)
+    path.resolve(__dirname, '..', 'wav', `${soundName}.wav`),
   );
 
   newButton.addEventListener('click', () => {
@@ -27,11 +27,11 @@ let trayIcon = null;
 
 if (process.platform === 'darwin') {
   trayIcon = new Tray(
-    path.resolve(__dirname, '..', 'img', 'tray-iconTemplate.png')
+    path.resolve(__dirname, '..', 'img', 'tray-iconTemplate.png'),
   );
 } else {
   trayIcon = new Tray(
-    path.resolve(__dirname, '..', 'img', 'tray-icon-alt.png')
+    path.resolve(__dirname, '..', 'img', 'tray-icon-alt.png'),
   );
 }
 
